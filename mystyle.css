@@ -306,3 +306,19 @@ h6{
     margin: 50px auto 100px auto;
     font-size: 1.7em;
 }
+
+.samples{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+
+}
+
+.audio{
+    display: block;
+    margin: 50px auto 75px auto;
+    width: 35%; 
+    box-shadow: 5px 5px 20px rgba(0,0, 0, 0.4);
+    border-radius: 90px;
+    transform: scale(1.20);
+}
